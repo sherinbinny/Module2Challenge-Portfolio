@@ -55,3 +55,22 @@ h6 {
 p {
   margin: 0;
 }
+
+.hero-banner div
+{
+  background-image: url("/images/02-hero-bg.jpg");
+  height: 200px;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-banner h2
+{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  background-color: #92cbcd;
+  color: #31343d;
+  font-size: 30px;
+  padding: 10px;
+}
