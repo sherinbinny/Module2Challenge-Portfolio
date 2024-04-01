@@ -9,6 +9,40 @@ body {
   line-height: 1.5;
 }
 
+header {
+  background-color: #31343d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px 15px 0;
+}
+
+header h1 {
+  background-color: #92cbcd;
+  color: #31343d;
+  line-height: normal;
+  height: 55px;
+  font-size: 47px;
+  padding: 0 10px 0 50px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+nav ul li a {
+  font-size: 20px;
+  color: #92cbcd;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-bottom: 4px solid #92cbcd;
+}
+
 h1,
 h2,
 h3,
