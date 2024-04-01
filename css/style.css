@@ -59,7 +59,7 @@ p {
 }
 
 .hero-banner div {
-  background-image: url("/images/02-hero-bg.jpg");
+  background-image: url("/images/hero-bg.jpg");
   height: 200px;
   background-size: cover;
   position: relative;
@@ -75,7 +75,7 @@ p {
   padding: 10px;
 }
 
-.page-section div {
+.page-section > div {
   display: flex;
   padding: 30px 100px;
   color: #445877;
@@ -95,9 +95,74 @@ p {
   padding: 0 0 40px 40px;
 }
 
+.page-section#Work > div > div
+{
+  border-left: 4px solid #445877;
+  margin-left: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding-left: 40px;
+}
+
+.page-section#Work > div > div > div
+{
+  border: 4px solid #92cbcd;
+  background-size: cover;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.page-section#Work > div > div > div:hover
+{
+  opacity: 1;
+}
+
+.project-1
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/portfolio-1.jpg);
+  height: 400px;
+  width: 100%;
+}
+
+.page-section#Work > div > div > div:not(.project-1)
+{
+  height: 200px;
+  width: 49%;
+}
+
+.project-2
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/portfolio-2.jpg);
+}
+
+.project-3
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/portfolio-3.jpg);
+}
+
+.project-4
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/portfolio-4.jpg);
+}
+
+.project-5
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/portfolio-5.jpg);
+}
+
+.project-heading
+{
+  width: fit-content;
+  background-color: #92cbcd;
+  padding: 10px;
+}
+
 .page-section ul {
   border-left: 4px solid #445877;
   margin: 0 0 0 15px;
+  padding-left: 15px;
   line-height: 120px;
 }
 
