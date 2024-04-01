@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px 15px 0;
+  padding: 15px 100px 15px 0;
 }
 
 header h1 {
@@ -68,9 +68,31 @@ p {
 {
   position: absolute;
   bottom: 40px;
-  right: 40px;
+  right: 100px;
   background-color: #92cbcd;
   color: #31343d;
   font-size: 30px;
   padding: 10px;
+}
+
+.page-section div
+{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 100px;
+  color: #445877;
+}
+
+.page-section h2
+{
+  font-size: 60px;
+  text-align: right;
+  line-height: normal;
+}
+
+.page-section p
+{
+  border-left: 5px solid #445877;
+  margin-left: 15px;
+  padding: 0 0 40px 40px;
 }
